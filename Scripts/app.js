@@ -56,6 +56,30 @@ console.log("App Started...")
 (function(){
 	
 	
+		var Amorgos;
+
+		Amorgos = document.getElementById("Amorgos");
+
+		Amorgos.innerHTML = "Shipwrecks, sea caves and beautiful clear waters make Amorgos popular with snorkelers, but the mountainous island is the perfect compromise between unwinding and adventure, boasting beautiful beaches but also hiking, scuba diving and rock-climbing. One of the island's main attractions is the 11th-century cliffside monastery of Panayia Hozoviótissa, which is precariously carved into a cliff.";
+	
+	
+})();
+
+(function(){
+	
+	
+		var Syros;
+
+		Syros = document.getElementById("Syros");
+
+		Syros.innerHTML = "A favourite Athenian escape and former shipowners' vacation spot full of grand mansions, Syros is little known to foreigners. Famous for its neoclassical architecture and perfectly preserved heritage, its capital, Ermoupolis, was a 13th-century Venetian-built town and important trade and industrial centre, and boasts giant churches and beautiful villas, a stunning town hall, and labyrinthine streets and stairways.";
+	
+	
+})();
+
+(function(){
+	
+	
 		var Milos;
 
 		Milos = document.getElementById("Milos");
@@ -87,4 +111,59 @@ console.log("App Started...")
 		Ithaca.innerHTML = "Most famous for being the home of Odysseus, and a prominent figure in Homer's 'The Odyssey', Ithaca is said to have been inhabited since the 2nd millennium BC. Made up of two islands joined by a narrow strip of land, many visit it to see the legendary sites mentioned by Homer. However, Ithaca is more than its mythical counterpart, beckoning with secluded beaches, dramatic cliffs, beautiful olive groves, and sleepy fishing villages full of Byzantine churches and monasteries.";
 	
 	
+})();
+
+(function(){
+	
+	
+		var Gavdos;
+
+		Gavdos = document.getElementById("Gavdos");
+
+		Gavdos.innerHTML = "Near the more well-known Crete, Gavdos is the most southern island in Greece — and the most southern spot in Europe discounting the Canaries. Only accessible by ferry, the remote island has only about 50 permanent residents, and can feel like your private playground. Local legend has it that the island was the home of goddess Calypso, who kept Odysseus prisoner here. Today, a favorite tourist activity is to visit the spot believed to be her cave. Be warned, you won't find any luxury hotels here. While the romantically under-developed, super laid back island has a number of rooms for rent, those are limited, as the real draw here for many is the free, seaside camping.";
+	
+	
+})();
+
+(function(){
+	
+	
+		var Gavdos;
+
+		Gavdos = document.getElementById("Gavdos");
+
+		Gavdos.innerHTML = "Near the more well-known Crete, Gavdos is the most southern island in Greece — and the most southern spot in Europe discounting the Canaries. Only accessible by ferry, the remote island has only about 50 permanent residents, and can feel like your private playground. Local legend has it that the island was the home of goddess Calypso, who kept Odysseus prisoner here. Today, a favorite tourist activity is to visit the spot believed to be her cave. Be warned, you won't find any luxury hotels here. While the romantically under-developed, super laid back island has a number of rooms for rent, those are limited, as the real draw here for many is the free, seaside camping.";
+	
+	
+})();
+
+
+
+// setup your function
+(function() {
+ if (document.getElementById("contact") != null) {
+        console.log("contact");
+        //declare variables and create a reference to form elements
+        var firstName = document.getElementById("firstName");
+        var lastName = document.getElementById("lastName");
+		var email = document.getElementById("email");
+		var comments = document.getElementById("comments");
+        var submit = document.getElementById("submit");
+        submit.pre
+
+        // end addEventListener
+        
+        submit.addEventListener("click", function(event){
+            event.preventDefault();
+            console.log("firstName: " + firstName.value);
+            console.log("lastName: " + lastName.value);
+			console.log("email: " + email.value);
+			console.log("comments: " + comments.value);
+        });
+        
+	
+	
+	}
+
+
 })();
